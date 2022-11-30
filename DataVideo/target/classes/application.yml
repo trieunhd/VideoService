@@ -1,0 +1,13 @@
+server:
+  port: 1009
+  servlet:
+    context-path: /api/data
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/onion
+    username: postgres
+    password: 10092002
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
